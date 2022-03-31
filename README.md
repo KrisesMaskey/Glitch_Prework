@@ -30,7 +30,7 @@ The following **optional** features are implemented:
 * [x] Player only loses after 3 mistakes (instead of on the first mistake)
 * [ ] Game button appearance change goes beyond color (e.g. add an image)
 * [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
-* [ ] User has a limited amount of time to enter their guess on each turn
+* [x] User has a limited amount of time to enter their guess on each turn
 
 The following **additional** features are implemented:
 
@@ -46,16 +46,32 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[YOUR ANSWER HERE]
+
+javascript.info: Used to understand Generic javascript syntax
+w3Schools: Used to understand Generic javascript, html, css syntax
+StackOverflow: Used to understand syntax and ways to implement certain functions
+
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[YOUR ANSWER HERE]
+
+The biggest challenge I faced was understanding the given code and implementing some of the additional features mentioned in the rubric. As I am new to Javascript I couldn’t just copy paste the given code, it took me some time to understand the use cases of certain functions and its syntax. Likewise, implementing the timer was also an exhausting process for me as I wanted the timer to have the following features,
+
+    i.   It should be visible to the player
+    ii.  It would end the game if it hit 0 and reset at the start of each round
+    iii. The user will have 10 second to put their guess
+
+Firstly, it took time to figure out the syntax for dynamically changing html text, but I found the answers on StackOverflow which worked. Secondly, calling the timer object and decrementing the time remaining variable did not work for me as multiple timer objects seemed to initialize after resetting at the start of each round. Hence, after careful debugging I eventually fixed this by using clearInterval() immediately before starting the new timer for the next round. Finally, to give the user 10 seconds while stopping the timer until the sounds were done playing was another tiresome process. Initially, I expected a delay variable would work to stop the timer until the sound was done playing, but this caused the same problem of multiple timers being initiated and counting the remaining time at once. However, by googling a bit I found a post about creating the setTimeout() function that is recursively called a secondary setTimeout() function, where the primary one would have a delay equal to the longest note and the second one to have a 1 second delay. This fixed the issue and my code worked! 
+
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+
+As this was my first time learning Javascript to make websites and work on webpages, it was interesting to see how we can create fun web games that run on the user's end. I am curious to see how we can integrate the things taught in class with such projects in the real world. Specifically, I am keen on knowing more about frontend/backend and different frameworks like NodeJS, AngularJS, Express, AWS, MongoDB, D3.js and React. Similarly, I also read an article about Web 3.0 and the concept of decentralizing web, so I also want to know how all these existing web development tools will integrate with Web 3.0 and what new frameworks would be required? Yet, this prework project provided me with an introduction to web development and I hope to learn the nitty gritty of Web Development through this Internship.
+
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+
+If I had more time to work on this project, I would probably try implementing other optional features to get started with. Then I would want to refactor my code and clean it to be as efficient as possible, also adding comments/ and following naming conventions with variables so my code would be easier to understand. Similarly, I believe this Game would be ideal for kids aged 2 to 7 and would design it accordingly. I would like to customize the buttons according to different children's lullabies, nursery rhymes, melodies such that it helps them recognize colors, sound and play the melodies of their choice. I would want the Game to be like an interactive Akai with colors that help them learn colors, sounds, music, melodies, notes and many more. Yet, this would require an already existing database of each note, children lullabies, music and a way to manually figure out/create a program to parse the sounds, which would take time. 
+
 
 
 
