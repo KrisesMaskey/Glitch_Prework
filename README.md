@@ -6,7 +6,7 @@ Submitted by: **Krises Maskey**
 
 Time spent: **2** hours spent in total
 
-Link to project: https://glitch.com/edit/#!/wind-shadow-course?path=index.html%3A39%3A0
+Link to project: https://glitch.com/edit/#!/wind-shadow-course
 
 ## Required Functionality
 
