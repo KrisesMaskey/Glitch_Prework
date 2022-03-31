@@ -4,7 +4,7 @@
 
 Submitted by: **Krises Maskey**
 
-Time spent: **3** hours spent in total
+Time spent: **6** hours spent in total
 
 Link to project: https://glitch.com/edit/#!/wind-shadow-course
 
@@ -47,9 +47,9 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
 
-javascript.info: Used to understand Generic javascript syntax
-w3Schools: Used to understand Generic javascript, html, css syntax
-StackOverflow: Used to understand syntax and ways to implement certain functions
+    i.   javascript.info: Used to understand Generic javascript syntax
+    ii.  w3Schools: Used to understand Generic javascript, html, css syntax
+    iii. StackOverflow: Used to understand syntax and ways to implement certain functions
 
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
