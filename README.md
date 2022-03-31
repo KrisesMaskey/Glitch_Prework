@@ -48,7 +48,9 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
 
     i.   javascript.info: Used to understand Generic javascript syntax
+    
     ii.  w3Schools: Used to understand Generic javascript, html, css syntax
+    
     iii. StackOverflow: Used to understand syntax and ways to implement certain functions
 
 
