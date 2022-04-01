@@ -79,7 +79,7 @@ If I had more time to work on this project, I would probably try implementing ot
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+[My 5-minute Interview Recording](https://www.loom.com/share/21c9658df83541a48d1ceb2b24662783)
 
 
 ## License
